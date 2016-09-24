@@ -16,7 +16,7 @@ use Auth;
 use Socialite;
 use App\SocialiteUserService;
 
-class mycontroller extends Controller {
+class myController extends Controller {
 
     var $products;
     var $categories;
