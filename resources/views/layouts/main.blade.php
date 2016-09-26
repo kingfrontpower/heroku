@@ -41,8 +41,8 @@
                         <div class="col-sm-6">
                             <div class="social-icons pull-right">
                                 <ul class="nav navbar-nav">
-                                    <li><a href="{{url("fb_redirect")}}"><i class="fa fa-facebook">登入</i></a></li>
-                                    <li><a href="https://www.facebook.com/sharer/sharer.php?u={{url("")}}" target="_blank"><i class="fa fa-facebook-official">分享</i></a></li>
+                                    <li><a href="{{url("fb_redirect")}}"><i class="fa fa-facebook">  Login </i></a></li>
+                                    <li><a href="https://www.facebook.com/sharer/sharer.php?u={{url("")}}" target="_blank"><i class="fa fa-facebook-official"> Share</i></a></li>
 <!--                                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                     <li><a href="#"><i class="fa fa-linkedin"></i></a></li>女
                                     <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
