@@ -30,17 +30,17 @@ class myController extends Controller {
 
     public function blog() {
 //        return "部落格";
-        return view("blog", ["title" => "Blog"]);
+        return view("blog", ["title" => " blog", "description" => "網頁說明", "products" => $this->products, "categories" => $this->categories, "brands" => $this->brands]);
     }
 
     public function blogSingle() {
 //        return "部落格-單頁";
-        return view("blogSingle", ["title" => "Blog-Sigle"]);
+        return view("blogSingle", ["title" => "Blog-Sigle", "description" => "網頁說明", "products" => $this->products, "categories" => $this->categories, "brands" => $this->brands]);
     }
 
     public function contactUs() {
 //        return "聯絡我們";
-        return view("contactUs", ["title" => "Contact-Us"]);
+        return view("contactUs", ["title" => "Contact-Us","title" => " blog", "description" => "網頁說明", "products" => $this->products, "categories" => $this->categories, "brands" => $this->brands]);
     }
 
 //    public function cart() {
