@@ -37,7 +37,7 @@ return [
      'facebook' => [
         'client_id' => '868082349989823',
         'client_secret' => 'ec1d94826b6e247654dcc391d3e0335b',
-        'redirect' => 'http://localhost:8080/myEshop/public/fb_callback',
+        'redirect' => 'http://boiling-mesa-76190.herokuapp.com/fb_callback',
     ],
 
 ];
