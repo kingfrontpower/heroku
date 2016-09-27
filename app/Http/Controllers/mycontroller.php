@@ -23,7 +23,7 @@ class myController extends Controller {
     var $brands;
 
     public function __construct() {
-        $this->products = \App\Product::all(["id", "name", "price", "images"]);
+        $this->products = \App\Product::all(["id", "name", "price", "images", "description"]);
         $this->categories = \App\Category::all(["name"]);
         $this->brands = \App\Brand::all(["name"]);
     }

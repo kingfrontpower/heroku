@@ -19,7 +19,8 @@
                             <input type="hidden" name="_token" value="{{csrf_token()}}">
                             <button type="submit" class="btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
                         </form>
-                        <a href="{{url("/products/details/$item->id")}}" class="btn btn-default add-to-cart"><i class="fa fa-info"></i>Product Detail</a>
+                        <!--<a href="{{url("/productsDetails/$item->id")}}" class="btn btn-default add-to-cart"><i class="fa fa-info"></i>Product Detail</a>-->
+                        
                     </div>
                 </div>
             </div>
