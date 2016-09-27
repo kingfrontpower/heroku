@@ -23,7 +23,7 @@ class myController extends Controller {
     var $brands;
 
     public function __construct() {
-        $this->products = \App\Product::all(["id", "name", "price"]);
+        $this->products = \App\Product::all(["id", "name", "price", "images"]);
         $this->categories = \App\Category::all(["name"]);
         $this->brands = \App\Brand::all(["name"]);
     }
@@ -52,7 +52,7 @@ class myController extends Controller {
         if (Request::isMethod('post')) {
             $product_id = Request::get('product_id');
             $product = Product::find($product_id);
-            Cart::add(array('id' => $product_id, 'name' => $product->name, 'qty' => 1, 'price' => $product->price));
+            Cart::add(array('id' => $product_id, 'name' => $product->name, 'qty' => 1, 'price' => $product->price, 'images' => $product->images ));
         }
 
         if (Request::get("product_id") && (Request::get("add") == 1)) {
